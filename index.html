@@ -18,14 +18,17 @@
 <body>
     <main class="main">
         <div class="container">
-            <span class="advice__title">Advice #<span class="advice__number">117</span></span>
+            <h1 class="advice__title">Advice #<span class="advice__number">117</span></h1>
             <p class="advice__text">"It is easy to sit up and take notice, what's difficult is getting up and taking
                 action."</p>
-            <object data="images/pattern-divider-desktop.svg" type="image/svg+xml" class="divider__desktop"></object>
-            <object data="images/pattern-divider-mobile.svg" type="image/svg+xml" class="divider__mobile"></object>
-            <form class="form" action="" method="get">
-                <button class="button">
-                    <object class="button__dice" type="image/svg+xml" data="images/icon-dice.svg">
+            <object aria-hidden="true" data="images/pattern-divider-desktop.svg" type="image/svg+xml"
+                class="divider__desktop"></object>
+            <object aria-hidden="true" data="images/pattern-divider-mobile.svg" type="image/svg+xml"
+                class="divider__mobile"></object>
+            <form class="form" action="submit" method="get">
+                <button class="button__generator">
+                    <object aria-label="dice icon" class="button__dice" type="image/svg+xml"
+                        data="images/icon-dice.svg">
                     </object>
                 </button>
             </form>
@@ -34,8 +37,9 @@
         <p class="wait">Please, wait 2 seconds to click again</p>
     </main>
     <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://www.github.com/phmac7">Pedro Machado</a>.
+        <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                Mentor</a>.</span>
+        <span>Coded by <a href="https://www.github.com/phmac7">Pedro Machado</a>.</span>
     </div>
     <script src="app.js"></script>
 </body>

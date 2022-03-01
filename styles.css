@@ -55,7 +55,7 @@ body {
 
 }
 
-.button {
+.button__generator {
     background-color: hsl(150, 100%, 66%);
     border:none;
     border-radius: 50%;
@@ -65,7 +65,7 @@ body {
 }
 
 
-.button:active {
+.button__generator:active {
     transform: translate(0rem, .1rem);
     box-shadow: 0 0 1rem rgba(0,0,0, .5);
 }

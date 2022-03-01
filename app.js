@@ -15,7 +15,7 @@ const data = async () => {
 
 }
 
-const button = document.querySelector('.button')
+const button = document.querySelector('.button__generator')
 const wait = document.querySelector('.wait')
 
 let lastClick = 0
